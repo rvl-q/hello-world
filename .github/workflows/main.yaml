@@ -2,6 +2,9 @@ name: Release application
 
 on:
   push:
+# on:
+#   push:
+    branches: [ "master" ]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
