@@ -1,7 +1,3 @@
-FROM alpine:latest
+FROM nginx:1.19-alpine
 
-WORKDIR /usr/src/app
-
-COPY hello-world.sh .
-
-CMD ./hello-world.sh
+COPY index.html /usr/share/nginx/html
