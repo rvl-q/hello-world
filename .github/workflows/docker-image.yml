@@ -5,6 +5,8 @@ on:
     branches: [ "testing" ]
   # pull_request:
   #   branches: [ "testing" ]
+    paths:
+      - '**.js'  
 
 jobs:
 
