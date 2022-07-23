@@ -17,4 +17,4 @@ spec:
       #     image: rvlq/colourcontent
       containers:
         - name: dwk-environments
-          image: PROJECT/IMAGE
+          image: gcr.io/PROJECT_ID/IMAGE
