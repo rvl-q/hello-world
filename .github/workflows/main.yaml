@@ -8,7 +8,7 @@ on:
     branches-ignore:
       - 'testing'
     paths:
-      - '**.js'  
+      - [ '**.js', '**.html' ]  
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
