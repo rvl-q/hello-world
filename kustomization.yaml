@@ -4,6 +4,6 @@ resources:
   - manifests/deployment.yaml
   - manifests/service.yaml
 
-images:
-  - name: PROJECT/IMAGE
-    newName: rvlq/colourcontent
+# images:
+#   - name: PROJECT/IMAGE
+#     newName: rvlq/colourcontent
